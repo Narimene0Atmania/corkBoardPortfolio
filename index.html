@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Narimene Atmania — Software Engineer</title>
+<meta name="description" content="Portfolio of Narimene Atmania, a software engineer and full-stack developer with a Master's in Software Engineering: requirements analysis, systems design and Agile delivery across Laravel, React and Flutter.">
+<meta name="theme-color" content="#efe7dc">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;family=Josefin+Sans:wght@400;600&amp;family=Nunito:wght@400;600;700&amp;family=Patrick+Hand&amp;family=Satisfy&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=17">
+</head>
+<body>
+
+<a class="skip-link" href="#projects">Skip to projects</a>
+
+<div class="viewport">
+<main class="stage">
+
+  <!-- wall, fairy lights and shelf -->
+  <img class="wall" src="assets/wall.jpg" alt="" width="1600" height="1160">
+
+  <!-- real corkboard photo (desktop only) -->
+  <img class="board" src="assets/board.jpg" alt="" width="1300" height="887">
+
+  <div class="cork">
+
+    <h1 class="sr-only">Narimene Atmania — Software Engineer &amp; Full-Stack Developer</h1>
+
+    <!-- floral banner -->
+    <div class="card banner" style="--x:344px;--y:424px;--w:250px;--r:-2deg">
+      <img class="ph" src="assets/floral.png" alt="" loading="lazy">
+      <p class="script banner__text">Portfolio</p>
+    </div>
+
+    <!-- polaroid + name sticky -->
+    <div class="hero">
+      <div class="card polaroid" style="--x:24px;--y:34px;--w:180px;--r:-4deg">
+        <div class="pol polaroid__frame">
+          <img class="polaroid__photo" src="assets/photo-cat.png" alt="White cat in pink sunglasses, a bow and a knitted pink scarf" width="160" height="164">
+          <p class="hand polaroid__caption">that's me</p>
+        </div>
+        <img class="prop" src="assets/washi.png" alt="" style="--x:30px;--y:-15px;--w:120px;--r:-5deg;z-index:8;opacity:.93">
+      </div>
+
+      <div class="card sticky" style="--x:222px;--y:20px;--w:184px;--r:3deg">
+        <img class="soft" src="assets/sticky.png" alt="">
+        <div class="sticky__text">
+          <p class="script sticky__name">Narimene</p>
+          <p class="caps sticky__role">SOFTWARE ENGINEER</p>
+        </div>
+      </div>
+
+      <img class="prop daisy" src="assets/daisy.png" alt="" style="--x:202px;--y:206px;--w:86px;--r:10deg">
+    </div>
+
+    <!-- ABOUT on lined paper -->
+    <section class="card about" style="--x:410px;--y:14px;--w:430px;--r:1deg" aria-labelledby="about-title">
+      <img class="ph" src="assets/about.png" alt="" loading="lazy">
+      <h2 id="about-title" class="script about__title">About me</h2>
+      <div class="pen about__body">
+        <p>Software engineer with a Master's degree. Before I write code I like to understand the problem, then build in short Agile cycles. Laravel and React on the web, Flutter on mobile.</p>
+        <div class="about__gap"></div>
+        <ul>
+          <li>M.Sc. Software Engineering</li>
+          <li>University Abou Bekr Belkaid</li>
+          <li>Tlemcen, Algeria</li>
+          <li>Requirements &amp; systems analysis</li>
+          <li>Idea to deployment, web and mobile</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS on notebook sticky -->
+    <section class="card toolkit" style="--x:28px;--y:286px;--w:290px;--r:-2deg" aria-labelledby="toolkit-title">
+      <img class="ph" src="assets/skills.png" alt="" loading="lazy">
+      <div class="pen toolkit__body">
+        <h2 id="toolkit-title" class="toolkit__title">My Toolkit</h2>
+        <ul class="checks">
+          <li>Laravel &amp; PHP</li>
+          <li>React &amp; TypeScript</li>
+          <li>Next.js</li>
+          <li>Flutter</li>
+          <li>Vue &amp; JavaScript</li>
+          <li>REST APIs</li>
+          <li>MySQL &amp; PostgreSQL</li>
+        </ul>
+      </div>
+      <img class="pin" src="assets/pin-orange.png" alt="" style="--x:140px;--y:-42px">
+    </section>
+
+    <!-- OPEN TO WORK on ripped notebook page -->
+    <aside class="card open" style="--x:872px;--y:130px;--w:330px;--r:2deg">
+      <img class="ph" src="assets/notebook.png" alt="" loading="lazy">
+      <p class="hand open__text">Open to freelance work!<br>ed-tech web apps<br>&amp; dashboards</p>
+      <img class="pin" src="assets/pin-blue.png" alt="" style="--x:146px;--y:-38px">
+      <img class="prop" src="assets/clip.png" alt="" style="--x:262px;--y:-26px;--w:54px;--r:18deg;z-index:8">
+    </aside>
+
+    <!-- projects label -->
+    <div class="card strip" id="projects" style="--x:722px;--y:506px;--w:250px;--r:-1deg;z-index:3">
+      <img class="ph" src="assets/strip.png" alt="" loading="lazy">
+      <h2 class="pen strip__text" id="projects-label">my projects</h2>
+    </div>
+
+    <!-- PROJECT polaroids -->
+    <ul class="projects" role="list" aria-labelledby="projects-label">
+      <li class="card project" style="--x:24px;--y:596px;--w:188px;--r:-2deg">
+        <button type="button" class="pol project__btn" data-project="buscatcher" aria-haspopup="dialog">
+          <img class="project__shot" src="assets/projects/buscatcher-hero.webp" alt="BusCatcher route confirmation screen on a map of Tlemcen" loading="lazy">
+          <span class="project__row">
+            <span class="hand project__name">BusCatcher</span>
+            <span class="caps tag tag--thesis">THESIS</span>
+          </span>
+          <span class="project__blurb">Live bus tracking across multiple university fleets.</span>
+        </button>
+        <img class="pin" src="assets/pin-green.png" alt="" style="--x:89px;--y:-44px">
+      </li>
+
+      <li class="card project" style="--x:220px;--y:600px;--w:188px;--r:1.5deg">
+        <button type="button" class="pol project__btn" data-project="madrasa" aria-haspopup="dialog">
+          <img class="project__shot" src="assets/projects/madrasa-hero.webp" alt="Madrasa admin dashboard with attendance and payment charts" loading="lazy">
+          <span class="project__row">
+            <span class="hand project__name">Madrasa</span>
+            <span class="caps tag tag--shipped">SHIPPED</span>
+          </span>
+          <span class="project__blurb">School management in French, Arabic and English.</span>
+        </button>
+        <img class="pin" src="assets/pin-red.png" alt="" style="--x:70px;--y:-44px">
+      </li>
+
+      <li class="card project" style="--x:416px;--y:594px;--w:188px;--r:-1deg">
+        <button type="button" class="pol project__btn" data-project="ombra" aria-haspopup="dialog">
+          <img class="project__shot" src="assets/projects/ombra-hero.webp" alt="OMBRA product listing with filters and clothing photos" loading="lazy">
+          <span class="project__row">
+            <span class="hand project__name">OMBRA</span>
+            <span class="caps tag tag--shipped">SHIPPED</span>
+          </span>
+          <span class="project__blurb">A multi-vendor clothing marketplace.</span>
+        </button>
+        <img class="pin" src="assets/pin-blue.png" alt="" style="--x:84px;--y:-44px">
+      </li>
+
+      <li class="card project" style="--x:612px;--y:600px;--w:188px;--r:2deg">
+        <button type="button" class="pol project__btn" data-project="plannari" aria-haspopup="dialog">
+          <img class="project__shot" src="assets/projects/plannari-hero.webp" alt="Illustrated desk scene with a calendar, to-do list and laptop" loading="lazy">
+          <span class="project__row">
+            <span class="hand project__name">Plannari</span>
+            <span class="caps tag tag--shipped">SHIPPED</span>
+          </span>
+          <span class="project__blurb">A day planner where nothing unfinished just vanishes.</span>
+        </button>
+        <img class="pin" src="assets/pin-orange.png" alt="" style="--x:86px;--y:-44px">
+      </li>
+
+      <li class="card project" style="--x:808px;--y:596px;--w:188px;--r:-1.5deg">
+        <button type="button" class="pol project__btn" data-project="mealplannari" aria-haspopup="dialog">
+          <img class="project__shot" src="assets/projects/mealplannari-hero.webp" alt="Meal browsing page with a grid of meal cards" loading="lazy">
+          <span class="project__row">
+            <span class="hand project__name">Meal Plannari</span>
+            <span class="caps tag tag--inuse">IN USE</span>
+          </span>
+          <span class="project__blurb">Meal planning with a pantry-aware shopping badge.</span>
+        </button>
+        <img class="pin" src="assets/pin-green.png" alt="" style="--x:89px;--y:-44px">
+      </li>
+
+      <li class="card project" style="--x:1004px;--y:592px;--w:188px;--r:1deg">
+        <button type="button" class="pol project__btn" data-project="loai-atmania" aria-haspopup="dialog">
+          <img class="project__shot" src="assets/projects/loai-atmania-hero.webp" alt="Dark dashboard-style homepage with a profile card and stats" loading="lazy">
+          <span class="project__row">
+            <span class="hand project__name">AI Consultant Portfolio</span>
+            <span class="caps tag tag--shipped">SHIPPED</span>
+          </span>
+          <span class="project__blurb">A dark, data-driven site for an AI consultant.</span>
+        </button>
+        <img class="pin" src="assets/pin-red.png" alt="" style="--x:70px;--y:-44px">
+      </li>
+    </ul>
+
+    <!-- CONTACT on purple sticky -->
+    <section class="card contact" style="--x:944px;--y:316px;--w:262px" aria-labelledby="contact-title">
+      <img class="soft" src="assets/purple.png" alt="" loading="lazy">
+      <div class="contact__note">
+        <h2 id="contact-title" class="script contact__title">Say hi!</h2>
+        <div class="contact__links">
+          <a href="mailto:atmanianarimene@gmail.com">atmanianarimene@gmail.com</a>
+          <a href="https://github.com/Narimene0Atmania" target="_blank" rel="noopener">github.com/Narimene0Atmania</a>
+          <a href="https://www.linkedin.com/in/narimene-atmania-776411331/" target="_blank" rel="noopener">in/narimene-atmania</a>
+          <span>Tlemcen, Algeria</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- quote on torn kraft -->
+    <figure class="card quote" style="--x:600px;--y:414px;--w:196px;--r:-3deg">
+      <img class="ph" src="assets/kraft.png" alt="" loading="lazy">
+      <blockquote class="pen quote__text">Don't quit your daydream.</blockquote>
+      <img class="prop" src="assets/tape.png" alt="" style="--x:42px;--y:-22px;--w:84px;--r:15deg;z-index:8;opacity:.95">
+    </figure>
+
+    <!-- decoration (hidden on phones) -->
+    <div class="deco" aria-hidden="true">
+      <!-- torn script paper: tucked behind the daisy and the toolkit note -->
+      <img class="prop prop--back" src="assets/script.png" alt="" loading="lazy" style="--x:236px;--y:236px;--w:196px;--r:3deg">
+      <img class="prop" src="assets/stamp2.png" alt="" loading="lazy" style="--x:866px;--y:14px;--w:112px;--r:5deg">
+      <img class="prop" src="assets/stamp1.png" alt="" loading="lazy" style="--x:994px;--y:18px;--w:76px;--r:-6deg">
+      <img class="prop" src="assets/heart.png" alt="" loading="lazy" style="--x:1112px;--y:34px;--w:62px;--r:12deg">
+      <img class="prop" src="assets/heart.png" alt="" loading="lazy" style="--x:858px;--y:350px;--w:58px;--r:-10deg">
+      <img class="prop" src="assets/heart.png" alt="" loading="lazy" style="--x:902px;--y:432px;--w:38px;--r:16deg">
+    </div>
+
+    <!-- warm light from the fairy lights -->
+    <div class="glow" aria-hidden="true"></div>
+  </div>
+
+  <footer class="shelf">
+    <p class="hand shelf__text">Made By Nari</p>
+  </footer>
+
+</main>
+</div>
+
+<!-- project detail view -->
+<dialog class="detail" id="detail" aria-labelledby="detail-title">
+  <img class="pin detail__pin" src="assets/pin-red.png" alt="">
+  <div class="detail__paper pol">
+    <button type="button" class="detail__close" data-close aria-label="Close project details">
+      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 5l14 14M19 5L5 19"/></svg>
+    </button>
+    <header class="detail__head">
+      <h2 id="detail-title" class="script detail__title"></h2>
+      <span class="caps tag" id="detail-tag"></span>
+    </header>
+    <p class="detail__lead" id="detail-lead"></p>
+    <div class="detail__body" id="detail-body"></div>
+    <p class="detail__meta" id="detail-meta"></p>
+    <h3 class="caps detail__label">Highlights</h3>
+    <ul class="detail__features" id="detail-features"></ul>
+    <h3 class="caps detail__label">Stack</h3>
+    <ul class="chips" id="detail-stack"></ul>
+    <h3 class="caps detail__label">Screenshots</h3>
+    <div class="shots" id="detail-shots"></div>
+    <p class="detail__links" id="detail-links"></p>
+  </div>
+</dialog>
+
+<noscript><style>.viewport{height:auto!important}</style></noscript>
+<script src="js/main.js?v=17" defer></script>
+</body>
+</html>
